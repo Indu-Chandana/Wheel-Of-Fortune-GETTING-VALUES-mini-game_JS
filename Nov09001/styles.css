@@ -1,8 +1,21 @@
+/* *{
+  background-color: aqua;
+} */
+body{
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 100vh;
+  background-image: url("https://media4.giphy.com/media/CkBzt6qXCCXw4/giphy.gif?cid=ecf05e47y6k0c5jxmi1apfxgh2fbgqt6zk6m8lldtu6jqz5o&rid=giphy.gif&ct=g");
+}
+
 #app {
   width: 400px;
   height: 400px;
   margin: 0 auto;
   position: relative;
+  /* background-color: aqua; */
+  background: transparent;
 }
 
 .display {

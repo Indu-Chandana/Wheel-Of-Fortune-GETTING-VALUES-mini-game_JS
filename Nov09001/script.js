@@ -34,13 +34,13 @@
     }, function(data, status) {
       // $("#test").html(data);
       // alert(data);
-      if(data == "Congratulations, You WON ..."){
-        swal("Good job!", data, "success", {
+      if(data == "true"){
+        swal("Good job!", "Congratulations, You WON ...", "success", {
           button: "Aww yiss!",
         });
       }else{
         // alert(data);
-        swal ( "Oops" ,  data ,  "error", {
+        swal ( "Oops" ,  "OHH Try at another time ..." ,  "error", {
           buttons: false,
           timer: 3000,
         } )

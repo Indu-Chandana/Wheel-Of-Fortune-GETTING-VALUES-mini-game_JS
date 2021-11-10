@@ -6,10 +6,12 @@
         $name = $_POST['suggestion'];
 
             if ($name == 8) {
-                echo "Congratulations, You WON ...";
+                // echo "Congratulations, You WON ...";
+                echo "true";
                 // echo $existingNames;
             } else {
-                echo "OHH Try at another time ...";
+                // echo "OHH Try at another time ...";
+                echo "false";
                 // echo $existingNames;
             }
         
